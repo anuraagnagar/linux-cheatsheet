@@ -33,6 +33,10 @@ Welcome to the Command Line Cheat Sheet! This comprehensive guide is designed to
 
 11. [Disc Management Commands](#disc-management-commands)
 
+12. [Network](#network)
+   
+13. [Remote Connection](#remote-connection)
+
 ## Users
 
 Detailed information about a user (uid, gid, and group).
