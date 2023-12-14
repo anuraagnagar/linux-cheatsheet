@@ -77,6 +77,8 @@ Modifies information about the user "NewUser".
 usermod NewUser
 ```
 
+[&#8593; Back to Top](#table-of-contents)
+
 ## Directory Navigation
 
 Navigate to the root directory.
@@ -108,6 +110,8 @@ Navigate to the hidden folder .ssh.
 ```bash
 cd /root/.ssh
 ```
+
+[&#8593; Back to Top](#table-of-contents)
 
 ### Working with Files
 
@@ -225,6 +229,8 @@ Displays the count of bytes, words, and lines in the new file.
 wc newfile
 ```
 
+[&#8593; Back to Top](#table-of-contents)
+
 ## File/Directory Permissions
 
 Sets read, write, and execute permissions for everyone who has access to the server (owner, group, others).
@@ -269,6 +275,8 @@ Displays the user and group owners of newfile.
 stat -c "%U %G" newfile
 ```
 
+[&#8593; Back to Top](#table-of-contents)
+
 ## Search
 
 Searches for the searchargument in newfile.
@@ -301,6 +309,8 @@ Finds files larger than 50000k in size in the /etc directory.
 find /etc/ -size +50000k
 ```
 
+[&#8593; Back to Top](#table-of-contents)
+
 ## Archive
 
 Create an archive 'archive.tar' from the file 'newfile.'
@@ -326,6 +336,8 @@ Compress the new file (it will have the extension .gz).
 ```bash
 gzip newfile
 ```
+
+[&#8593; Back to Top](#table-of-contents)
 
 ## Installing Programs from Packages
 
@@ -376,6 +388,8 @@ Updates the packages in the system (Debian, Ubuntu, Mint, etc.) and updates the 
 ```bash
 apt upgrade && apt update
 ```
+
+[&#8593; Back to Top](#table-of-contents)
 
 ## Processes
 
@@ -463,6 +477,8 @@ Shows a tree-like representation of processes.
 pstree
 ```
 
+[&#8593; Back to Top](#table-of-contents)
+
 ## System
 
 Displays system information.
@@ -536,6 +552,8 @@ Shows information about the root user (requires installation with "apt-get insta
 ```bash
 finger root
 ```
+
+[&#8593; Back to Top](#table-of-contents)
 
 ## Hardware Commands
 
@@ -611,6 +629,8 @@ Performs a test for bad sectors.
 badblocks -s /dev/xda
 ```
 
+[&#8593; Back to Top](#table-of-contents)
+
 ## Disc Management Commands
 
 Shows free space on mounted partitions (in bytes).
@@ -648,6 +668,8 @@ Mounts partition 1 of sdb disk to the /mnt directory.
 ```bash
 mount /dev/sdb1 /mnt
 ```
+
+[&#8593; Back to Top](#table-of-contents)
 
 ## Network
 
@@ -717,6 +739,8 @@ Displays all ports being listened to on the host (requires "apt-get install net-
 netstat -pnltu
 ```
 
+[&#8593; Back to Top](#table-of-contents)
+
 ## Remote Connection
 
 Connects to a remote host via ssh as the root user.
@@ -742,3 +766,5 @@ Uses a telnet connection (port 23).
 ```bash
 telnet host
 ```
+
+[&#8593; Back to Top](#table-of-contents)
